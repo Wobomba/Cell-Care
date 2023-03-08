@@ -1,27 +1,24 @@
-import './App.css';
+import './styles.css';
+import Navbar from './components/Navbar';
+import {Route, Routes} from 'react-router-dom';
+import Home from './routes/Home';
+import Service from './routes/Service';
+import About from './routes/About';
+import Contact from './routes/Contact';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+
+      <Routes>
+        <Route path = '/' element={<Home/>}/>
+        <Route path = '/about' element={<About/>}/>
+        <Route path = '/service' element={<Service/>}/>
+        <Route path = '/contact' element={<Contact/>}/>
+      </Routes>
+
+      <Navbar/>
+
     </div>
   );
 }
