@@ -4,7 +4,7 @@ const Footer = () => {
     return(
         <div className='footer'>
             <div className='top'>
-                <h1>Trippy</h1>
+                <h1>TLC Safaris</h1>
                 <div>
                 <a href='/'>
                     <i className='fa-brands fa-facebook-square'></i>
