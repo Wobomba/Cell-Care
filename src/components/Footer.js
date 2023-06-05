@@ -6,16 +6,14 @@ const Footer = () => {
             <div className='top'>
                 <h1>TLC Safaris</h1>
                 <div>
-                <a href='/'>
-                    <i className='fa-brands fa-facebook-square'></i>
-                </a>
-                <a href='/'>
+            
+                <a href='https://instagram.com/tlcsafaris'>
                     <i className='fa-brands fa-instagram-square'></i>
                 </a>
-                <a href='/'>
-                    <i className='fa-brands fa-behance-square'></i>
+                <a href='https://youtube.com/@TLCSAFARIS'>
+                    <i className="fa-brands fa-youtube"></i>
                 </a>
-                <a href='/'>
+                <a href='https://twitter.com/tlcsafaris'>
                     <i className='fa-brands fa-twitter-square'></i>
                 </a>
 
