@@ -2,6 +2,7 @@ import { Component } from 'react';
 import './NavbarStyles.css';
 import { MenuItems } from './MenuItems';
 import { Link } from 'react-router-dom';
+import logo from '../assets/final-logo.png';
 
 class Navbar extends Component {
     state = {clicked:false};
@@ -11,8 +12,8 @@ class Navbar extends Component {
     render() {
         return (
             <nav className='NavbarItems'>
-                <h1 className='navbar-logo'>TLC</h1>
-                
+                {/*<h1 className='navbar-logo'></h1>*/}
+                <img src={logo} alt='TLC' style={{width: '80px', height:'auto'}}/>
 
                 <div className='menu-icons' onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>

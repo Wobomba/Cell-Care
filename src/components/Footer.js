@@ -19,7 +19,7 @@ const Footer = () => {
 
             </div>
             </div>
-            
+            {/*
             <div className='bottom'>
                 <div>
                     <h4>Project</h4>
@@ -50,7 +50,7 @@ const Footer = () => {
                     <a href='/'>Privacy</a>
                     <a href='/'>Policy</a>
                 </div>
-            </div>
+            </div>*/}
         </div>
     )
 }
