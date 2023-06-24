@@ -1,8 +1,8 @@
 import './TripStyles.css';
 import TripData from './TripData'; 
-import Trip1 from '../assets/5.jpg';
-import Trip2 from '../assets/8.jpg';
-import Trip3 from '../assets/6.jpg';
+import Trip1 from '../assets/Exp62.jpeg';
+import Trip2 from '../assets/Exp61.jpeg';
+import Trip3 from '../assets/Exp71.jpeg';
 
 function Trip(){
     return(
@@ -12,21 +12,31 @@ function Trip(){
             <div className='tripcard'>
                 <TripData 
                 image={Trip1}
-                heading="Trip in Inonesia"
-                text="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Ocenia between the Indian and Pacific oceans. It consists of over 17,000 islands, including
-                 Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea."
+                heading="Tubing on the Nile"
+                text="Get ready for an exhilarating adventure as you embark on a tubing excursion on the mighty Nile River. 
+                Feel the rush of adrenaline as you navigate the swirling currents and cascading rapids, 
+                immersing yourself in the heart of nature's power. Brace yourself for a truly unforgettable experience that 
+                combines the thrill of whitewater 
+                tubing with the awe-inspiring beauty of the Nile's breathtaking scenery."
                 />
                 <TripData 
                 image={Trip2}
-                heading="Trip in Inonesia"
-                text="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Ocenia between the Indian and Pacific oceans. It consists of over 17,000 islands, including
-                 Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea."
+                heading="Mombasa Blue Waters"
+                text="Immerse yourself in the captivating allure of Mombasa's azure waters, where a world 
+                of tranquility and natural beauty awaits. Picture yourself standing on the soft, powdery 
+                sands, gazing out at the shimmering expanse of the Indian Ocean. Mombasa's blue waters 
+                beckon you to indulge in an experience that combines breathtaking vistas, pristine beaches, 
+                and a sense of serenity that soothes the soul."
                 />
                 <TripData 
                 image={Trip3}
-                heading="Trip in Inonesia"
-                text="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Ocenia between the Indian and Pacific oceans. It consists of over 17,000 islands, including
-                 Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea."
+                heading="Trekking Mabira Forest"
+                text="Prepare to immerse yourself in the untamed beauty of Mabira Forest as you embark on an
+                 unforgettable trek through its verdant depths. Located in the heart of Uganda, this enchanting
+                  forest invites you to step into a world of lush greenery, exotic wildlife, and captivating 
+                  natural wonders. Get ready to explore a haven of biodiversity, where every step reveals a 
+                  new surprise and
+                 every moment is filled with awe-inspiring discoveries."
                 />
             </div>
         </div>

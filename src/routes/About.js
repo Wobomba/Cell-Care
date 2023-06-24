@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import AboutImg from '../assets/night.jpg';
 import Footer from '../components/Footer';
 import AboutData from '../components/AboutData';
+import Trip from '../components/Trip';
 
 function About() {
     return (
@@ -16,7 +17,7 @@ function About() {
             />
 
            <AboutData/>
-           
+           <Trip/>
 
             <Footer/>
         </>

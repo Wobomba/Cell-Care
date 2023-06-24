@@ -8,7 +8,7 @@
 }
 
 .tripcard{
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 }
@@ -20,6 +20,7 @@
     border-radius: 7px;
     cursor: pointer;
     padding: 1rem .8rem;
+    
 }
 
 .t-image{
@@ -41,7 +42,7 @@
 
 .t-card h4{
     font-size: 1.3rem;
-    padding: 9rem 0 .2rem 0;
+    padding: 2rem 0 .2rem 0;
 }
 
 @media screen and (max-width:850px){
