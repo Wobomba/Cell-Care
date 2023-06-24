@@ -2,7 +2,7 @@ import Destination from "../components/Destination";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import Trip from "../components/Trip";
+import Gallery from '../components/Gallery';
 
 function Home() {
     return (
@@ -18,7 +18,10 @@ function Home() {
                 btnClass='show'
             />
             <Destination/>
-            <Trip/>
+            <div>
+                <h1>Recent Travel Experiences</h1>
+            </div>
+            <Gallery/>
             <Footer/>
         </>
     );

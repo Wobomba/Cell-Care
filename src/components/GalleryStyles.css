@@ -1,0 +1,19 @@
+.gallery-list{
+    margin: 4rem 6rem;
+    height: 400px;
+}
+
+@media screen and (max-width:850px){
+    .gallery-list{
+        margin: 4rem 2rem;
+    }
+
+    .gallery-list {
+        flex-direction: column;
+    }
+
+    .gallery-list{
+        width:100%;
+        margin-bottom: 1.5rem;
+    }
+}
