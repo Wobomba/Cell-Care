@@ -1,4 +1,4 @@
-import Portfolio from '../assets/Exp72.jpeg'
+import Portfolio from '../assets/founder.jpg'
 import './AboutData.css'
 function AboutData() {
     return (
@@ -15,7 +15,7 @@ function AboutData() {
                  personalized service, and attention to detail, 
                 we invite you to join us on a remarkable voyage of discovery.</p>
             <h3>Our Philosophy</h3>
-            <p>At the heart of our philosophy is the belief that travel is not merely about visiting places; 
+            <p>Started by Tommy Choudry, our philosophy is the belief that travel is not merely about visiting places; 
                 it is about connecting with the essence of a destination. We strive to create transformative experiences that immerse you in the local culture, foster meaningful connections, and leave a positive impact on the communities we encounter. We understand that every traveler is unique, 
                 and our goal is to tailor each itinerary to suit your individual interests, preferences,
                  and travel style.</p>
