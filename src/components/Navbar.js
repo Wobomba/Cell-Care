@@ -12,10 +12,15 @@ class Navbar extends Component {
     render() {
         return (
             <nav className='NavbarItems'>
+<<<<<<< HEAD
                 {/*<h1 className='navbar-logo'>TLC</h1>*/}
                 <img src={logo} alt='TLC' style={{width: '80px', height:'auto'}}/>
 
                 
+=======
+                {/*<h1 className='navbar-logo'></h1>*/}
+                <img src={logo} alt='TLC' style={{width: '80px', height:'auto'}}/>
+>>>>>>> codespace-wobomba-scaling-engine-xvqpp7vw75q3pxq4
 
                 <div className='menu-icons' onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
