@@ -42,7 +42,7 @@ function Service() {
             </div>
 
             <Trip />
-            
+            <Footer />
         </>
     )
 }
