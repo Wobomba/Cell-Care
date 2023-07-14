@@ -1,6 +1,6 @@
 import './TripStyles.css';
 import TripData from './TripData'; 
-<<<<<<< HEAD
+
 import Trip1 from '../assets/Exp4.jpeg';
 import Trip2 from '../assets/Exp61.jpeg';
 import Trip3 from '../assets/mabira-trek.jpg';
