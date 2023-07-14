@@ -11,8 +11,8 @@ function ServicesTrip(){
         <div className='trip'>
 
 
-            <h1>Recent Trips</h1>
-            <p>Discover the untamed beauty of the African Savannah with our thrilling safari excursions.</p>
+            <h1>What We Offer</h1>
+            
 
             <div className='tripcard'>
                 <TripData 
