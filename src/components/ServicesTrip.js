@@ -1,4 +1,4 @@
-import './ServicesTripStyles';
+import '../components/ServicesTripStyles.css';
 import TripData from './ServicesTripData'; 
 
 import Trip1 from '../assets/Exp4.jpeg';
