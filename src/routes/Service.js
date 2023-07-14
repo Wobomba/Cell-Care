@@ -4,7 +4,7 @@ import AboutImg from '../assets/1.jpg';
 import Trip from '../components/Trip';
 import Footer from '../components/Footer';
 import Card from '../components/Card.jsx';
-import img1 from "../assets/Exp.jpeg";
+import img1 from "../assets/Exp1.jpeg";
 import img2 from "../assets/Exp2.jpeg";
 import img3 from "../assets/Exp3.jpeg";
 import img4 from "../assets/Exp4.jpeg";
