@@ -32,8 +32,6 @@ class Navbar extends Component {
                         );
                     })}
 
-                    <button>Signup</button>
-
                 </ul>
             </nav>
         );
