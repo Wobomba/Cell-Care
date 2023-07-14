@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "./Card";
-import img1 from "../src/Pictures/img1.png";
-import img2 from "../src/Pictures/img2.png";
-import img3 from "../src/Pictures/img3.png";
-import img4 from "../src/Pictures/img4.png";
-import img5 from "../src/Pictures/img5.png";
-import img6 from "../src/Pictures/img6.png";
+import img1 from "../src/assets/Exp1.jpeg";
+import img2 from "../src/assets/Exp2.jpeg";
+import img3 from "../src/assets/Exp3.jpeg";
+import img4 from "../src/assets/Exp4.jpeg";
+import img5 from "../src/assets/Exp55.jpeg";
+import img6 from "../src/assets/Exp56.jpeg";
 
 function Service() {
   return (

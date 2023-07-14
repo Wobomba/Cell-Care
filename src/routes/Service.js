@@ -8,7 +8,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import img1 from "../src/assets/Exp1.jpeg";
+import hey from "../assets/Exp1.jpeg";
 
 function Service() {
     return (
@@ -25,7 +25,7 @@ function Service() {
                     <CardMedia
                         component="img"
                         height="140"
-                        image={img1}
+                        image={hey}
                         alt="green iguana"
                     />
                     <CardContent>

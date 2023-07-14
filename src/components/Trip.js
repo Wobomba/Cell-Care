@@ -43,9 +43,6 @@ function Trip(){
                   natural wonders. Get ready to explore a haven of biodiversity, where every step reveals a 
                   new surprise and
                  every moment is filled with awe-inspiring discoveries."/>
-
-                
-              
             </div>
         </div>
     );
