@@ -4,12 +4,12 @@ import AboutImg from '../assets/1.jpg';
 import Trip from '../components/Trip';
 import Footer from '../components/Footer';
 import Card from '../components/Card.jsx';
-import img1 from "../src/assets/Exp1.jpeg";
-import img2 from "../src/assets/Exp2.jpeg";
-import img3 from "../src/assets/Exp3.jpeg";
-import img4 from "../src/assets/Exp4.jpeg";
-import img5 from "../src/assets/Exp55.jpeg";
-import img6 from "../src/assets/Exp56.jpeg";
+import img1 from "../assets/Exp.jpeg";
+import img2 from "../assets/Exp2.jpeg";
+import img3 from "../assets/Exp3.jpeg";
+import img4 from "../assets/Exp4.jpeg";
+import img5 from "../assets/Exp55.jpeg";
+import img6 from "../assets/Exp56.jpeg";
 
 function Service() {
     return (
