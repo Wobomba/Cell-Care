@@ -1,7 +1,7 @@
 import Hero from '../components/Hero';
 import Navbar from "../components/Navbar";
 import AboutImg from '../assets/1.jpg';
-import ServicesTripTrip from '../components/ServicesTrip';
+import ServicesTrip from '../components/ServicesTrip';
 import Footer from '../components/Footer';
 
 
@@ -18,7 +18,7 @@ function Service() {
             
 
 
-            <ServicesTripTrip/>
+            <ServicesTrip/>
             <Footer />
         </>
     )
