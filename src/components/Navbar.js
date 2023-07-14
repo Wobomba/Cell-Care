@@ -13,10 +13,6 @@ class Navbar extends Component {
         return (
             <nav className='NavbarItems'>
 
-                {/*<h1 className='navbar-logo'>TLC</h1>*/}
-                <img src={logo} alt='TLC' style={{width: '80px', height:'auto'}}/>
-
-
                 {/*<h1 className='navbar-logo'></h1>*/}
                 <img src={logo} alt='TLC' style={{width: '80px', height:'auto'}}/>
 
