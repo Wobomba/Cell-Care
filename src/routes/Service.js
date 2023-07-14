@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import AboutImg from '../assets/1.jpg';
 import ServicesTrip from '../components/ServicesTrip';
 import Footer from '../components/Footer';
+import Trip from '../components/Trip';
 
 
 function Service() {
@@ -19,6 +20,7 @@ function Service() {
 
 
             <ServicesTrip/>
+            <Trip/>
             <Footer />
         </>
     )
