@@ -81,7 +81,7 @@ form {
 }
 
 .submit-btn:hover {
-    background-color: var(--green);
+    background-color: var(--light);
     color: var(--dark) !important;
     border: 2px solid var(--light);
 }
