@@ -15,7 +15,7 @@ function Contact() {
                 title='Contact'
                 btnClass='hide'
             />
-            <div className="App">
+            <div className="Contact">
                 <div className="container">
                     <h1 className="text-center">
                         Contact Form
