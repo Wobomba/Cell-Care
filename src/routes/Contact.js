@@ -9,12 +9,7 @@ function Contact() {
     return (
         <>
             <Navbar />
-            <Hero
-                cName='hero-mid'
-                heroImg={AboutImg}
-                title='Contact'
-                btnClass='hide'
-            />
+            
             <div className="App">
                 <div className="container">
                     <h1 className="text-center">
