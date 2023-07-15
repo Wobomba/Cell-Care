@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+:root {
+    --light: #d0d1d3;
+    --dark: #040d14;
+    --green: #21ce99;
+  }
+
 body {
     font-family: Poppins;
     background: var(--dark);
