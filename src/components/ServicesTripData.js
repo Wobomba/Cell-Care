@@ -6,7 +6,7 @@ function ServicesTripData(props){
             <div className='t-image'>
                 <img alt ='images' src ={props.image}/>
             </div>
-            <h4>{props.heading}</h4>
+            <h4 className='headerss'>{props.heading}</h4>
         </div>
     )
 }
