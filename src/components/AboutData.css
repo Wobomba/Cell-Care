@@ -65,8 +65,27 @@
 
 .the-team{
     margin: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 4rem 6rem;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
+.ceo-left{
+    flex: 50%;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.tech-right{
+    flex: 50%;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    text-align: start;
+}
 
 @media screen and (max-width:850px){
     .flex-item-left img, .portfolio-about{

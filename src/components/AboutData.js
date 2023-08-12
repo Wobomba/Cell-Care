@@ -60,7 +60,7 @@ function AboutData() {
 
             <div className='the-team'>
                 <h3>Meet The Team</h3>
-                <div className='flex-item-left'>
+                <div className='ceo-left'>
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
                             component='img'
@@ -80,7 +80,7 @@ function AboutData() {
                     </Card>
                 </div>
 
-                <div className='flex-item-right'>
+                <div className='tech-right'>
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
                             component='img'
