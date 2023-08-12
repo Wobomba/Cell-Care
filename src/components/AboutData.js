@@ -60,41 +60,48 @@ function AboutData() {
 
             <div className='the-team'>
                 <h3>Meet The Team</h3>
-                <Card sx={{ maxWidth: 345 }}>
-                    <CardMedia
-                        component='img'
-                        height='140'
-                        image={ceo}
+                <div className='flex-item-left'>
+                    <Card sx={{ maxWidth: 345 }}>
+                        <CardMedia
+                            component='img'
+                            height='140'
+                            image={ceo}
                         />
 
 
-                    <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
-                            Lokwi Tom Choudry
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                            CEO 
-                        </Typography>
-                    </CardContent>
-                </Card>
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="div">
+                                Lokwi Tom Choudry
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
+                                CEO
+                            </Typography>
+                        </CardContent>
+                    </Card>
+                </div>
 
-                <Card sx={{ maxWidth: 345 }}>
-                    <CardMedia
-                        component='img'
-                        height='140'
-                        image={tech}
+                <div className='flex-item-right'>
+                    <Card sx={{ maxWidth: 345 }}>
+                        <CardMedia
+                            component='img'
+                            height='140'
+                            image={tech}
                         />
 
 
-                    <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
-                            Wobomba Isaac Newton
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                            Full Stack Developer
-                        </Typography>
-                    </CardContent>
-                </Card>
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="div">
+                                Wobomba Isaac Newton
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
+                                Full Stack Developer
+                            </Typography>
+                        </CardContent>
+                    </Card>
+                </div>
+
+
+
 
 
             </div>
