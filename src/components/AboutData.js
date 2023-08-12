@@ -59,7 +59,7 @@ function AboutData() {
             </div>
 
             <h3 className='the-team'>Meet The Team</h3>
-            <div style={{ margin: '25%' }}>
+            <div className='flex-container'>
                 <div className='ceo-left'>
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
@@ -67,7 +67,6 @@ function AboutData() {
                             height='140'
                             image={ceo}
                         />
-
 
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
