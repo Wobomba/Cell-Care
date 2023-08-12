@@ -59,6 +59,7 @@ function AboutData() {
             </div>
 
             <h3 className='the-team'>Meet The Team</h3>
+            <div style={{ margin: '25%' }}>
                 <div className='ceo-left'>
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
