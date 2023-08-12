@@ -1,5 +1,7 @@
 import './teamStyles.css';
-import teamData from './teamData';
+import teamData from './teamData'
+
+
 import ceo from '../assets/Tommy.jpg';
 import tech from '../assets/Newton.jpg';
 

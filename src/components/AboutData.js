@@ -1,6 +1,11 @@
 import Portfolio from '../assets/founder.jpg'
 import './AboutData.css'
-
+import Card from '@mui/material/Card'
+import CardContent from '@mui/material/CardContent'
+import CardMedia from '@mui/material/CardMedia'
+import Typography from '@mui/material/Typography'
+import ceo from '../assets/Tommy.jpg'
+import tech from '../assets/Newton.jpg'
 
 function AboutData() {
     return (

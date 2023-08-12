@@ -18,7 +18,7 @@ function About() {
             />
 
            <AboutData/>
-           <Team/>
+           
            <Trip/>
 
             <Footer/>
