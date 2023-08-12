@@ -4,7 +4,7 @@ import AboutImg from '../assets/Exp57.jpeg';
 import Footer from '../components/Footer';
 import AboutData from '../components/AboutData';
 import Trip from '../components/Trip';
-import Team from '../components/team';
+
 
 function About() {
     return (
