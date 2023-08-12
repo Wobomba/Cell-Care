@@ -64,15 +64,9 @@
 }
 
 .the-team{
-    margin: 25%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-    border: 4rem 6rem;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 25%;   
 }
+
 
 .ceo-left{
     flex: 50%;
