@@ -67,19 +67,6 @@
     margin: 25%;
 }
 
-.ceo{
-    flex: 50%;
-    justify-content: space-between;
-    margin-top: 4.5rem;
-}
-
-.tech{
-    flex: 50%;
-    justify-content: space-between;
-    margin-top: 4.5rem;
-    text-align: start;
-}
-
 @media screen and (max-width:850px){
     .flex-item-left img, .portfolio-about{
         height:250px;
