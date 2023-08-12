@@ -17,8 +17,6 @@ function Service() {
                 btnClass='hide'
             />
             
-
-
             <ServicesTrip/>
             <Trip/>
             <Footer />

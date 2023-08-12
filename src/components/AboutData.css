@@ -63,6 +63,10 @@
 
 }
 
+.the-team{
+    margin: 25%;
+}
+
 @media screen and (max-width:850px){
     .flex-item-left img, .portfolio-about{
         height:250px;
