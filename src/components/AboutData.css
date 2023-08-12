@@ -63,18 +63,23 @@
 
 }
 
-
+.the-team{
+    margin-top: 1rem;
+    margin-right:4rem;
+}
 
 .ceo-left{
     flex: 50%;
     justify-content: space-between;
-    margin-top: 1.5rem;
+    margin-top: 4.5rem;
+    margin: 2%;
     border-radius: 30px 0px;
 }
 
 .tech-right{
     flex: 50%;
     justify-content: space-between;
+    margin: 2%;
     margin-top: 1.5rem;
 
 }
