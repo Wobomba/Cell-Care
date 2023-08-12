@@ -1,11 +1,6 @@
 import Portfolio from '../assets/founder.jpg'
 import './AboutData.css'
-import Card from '@mui/material/Card'
-import CardContent from '@mui/material/CardContent'
-import CardMedia from '@mui/material/CardMedia'
-import Typography from '@mui/material/Typography'
-import ceo from '../assets/Tommy.jpg'
-import tech from '../assets/Newton.jpg'
+
 
 function AboutData() {
     return (
@@ -58,53 +53,7 @@ function AboutData() {
 
             </div>
 
-            <div className='the-team'>
-                <h3>Meet The Team</h3>
-                <div className='tech-right'>
-                    <Card sx={{ maxWidth: 345 }}>
-                        <CardMedia
-                            component='img'
-                            height='140'
-                            image={ceo}
-                        />
-
-
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                                Lokwi Tom Choudry
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                CEO
-                            </Typography>
-                        </CardContent>
-                    </Card>
-                </div>
-
-                <div className='ceo-left'>
-                    <Card sx={{ maxWidth: 345 }}>
-                        <CardMedia
-                            component='img'
-                            height='140'
-                            image={tech}
-                        />
-
-
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                                Wobomba Isaac Newton
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Full Stack Developer
-                            </Typography>
-                        </CardContent>
-                    </Card>
-                </div>
-
-
-
-
-
-            </div>
+            
 
 
 
