@@ -11,7 +11,7 @@ function AboutData() {
     return (
         <div class="flex-container">
             <div class="flex-item-left">
-                <img src={Portfolio} alt='TLC' />
+                <img src={ceo} alt='TLC' />
             </div>
             <div class="flex-item-right">
                 <h2>TLC Safaris</h2>
@@ -56,10 +56,9 @@ function AboutData() {
                     transportation options, and engage in community-driven
                     initiatives that promote socio-economic development and conservation efforts.</p>
 
-            </div>
+                <h3>Meet The Team</h3>
 
-            <h3 className='the-team'>Meet The Team</h3>
-            <div className='flex-container'>
+                <div className='flex-container'>
                 <div className='ceo-left'>
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
@@ -101,11 +100,9 @@ function AboutData() {
 
             </div>
 
+                
 
-
-
-
-
+            </div>
 
         </div>
 
