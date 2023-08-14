@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Gallery from '../components/Gallery';
-import HomeImg from '../assets/lion.avif';
+import HomeImg from '../assets/bw.jpg';
 
 function Home() {
     return (

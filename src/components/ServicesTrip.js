@@ -3,16 +3,17 @@ import TripData from './ServicesTripData';
 
 import Trip1 from '../assets/Exp4.jpeg';
 import Trip2 from '../assets/Exp61.jpeg';
-import Trip3 from '../assets/mabira-trek.jpg';
-
+import Trip3 from '../assets/honeymoon.jpg';
+import Honeymoon from '../assets/honeymoon.jpg';
+import Guide from '../assets/guide.jpg';
+import Retreat from '../assets/retreat.jpg';
+import Plans from '../assets/plans.jpg';
+import Photos from '../assets/photography.webp';
+import Tent from '../assets/tent.jpg';
 
 function ServicesTrip(){
     return(
-        <div className='trip'>
-
-
-            <h1>What We Offer</h1>
-            
+        <div className='trip'>            
 
             <div className='tripcard'>
                 <TripData 
@@ -24,17 +25,17 @@ function ServicesTrip(){
                 heading="Private Trips"
                 />
                 <TripData 
-                image={Trip3}
+                image={Honeymoon}
                 heading="Honeymoon Packages"/>
             </div>
 
             <div className='tripcard'>
                 <TripData 
-                image={Trip1}
+                image={Guide}
                 heading="Tour Guiding"
                 />
                 <TripData 
-                image={Trip2}
+                image={Retreat}
                 heading="Retreats"
                 />
                 <TripData 
@@ -44,15 +45,15 @@ function ServicesTrip(){
 
             <div className='tripcard'>
                 <TripData 
-                image={Trip1}
+                image={Plans}
                 heading="Events Planning"
                 />
                 <TripData 
-                image={Trip2}
+                image={Photos}
                 heading="Photography"
                 />
                 <TripData 
-                image={Trip3}
+                image={Tent}
                 heading="Tents Booking"/>
             </div>
 
