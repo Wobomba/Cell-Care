@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Destination from "../components/Destination";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
