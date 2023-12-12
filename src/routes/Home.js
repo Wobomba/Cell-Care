@@ -1,3 +1,5 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import Destination from "../components/Destination";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
@@ -15,7 +17,7 @@ function Home() {
                 title='TLC    SAFARIS'
                 text='Your Travel, Our Satisfaction'
                 buttonText='Our Services'
-                url='/'
+                url='/service'
                 btnClass='show'
             />
             <Destination/>

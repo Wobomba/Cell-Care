@@ -2,7 +2,8 @@ import Navbar from "../components/Navbar";
 import Hero from '../components/Hero';
 import AboutImg from '../assets/bwindi-forest-uganda.jpg';
 import Footer from "../components/Footer";
-import ContactForm from "../components/ContactForm";
+import GalleryPage from "../components/GalleryPage";
+
 
 
 function Contact() {
@@ -12,15 +13,14 @@ function Contact() {
             <Hero
                 cName='hero-mid'
                 heroImg={AboutImg}
-                title='Want To Reach Us?'
+                title='Our Experiences'
                 btnClass='hide'
             />
             <div className="Contact">
                 <div className="container">
                     <h1 className="text-center">
-                        Contact Form
                     </h1>
-                    <ContactForm/>
+                    <GalleryPage/>
                 </div>
             </div>
             
