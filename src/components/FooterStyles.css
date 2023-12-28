@@ -1,63 +1,39 @@
-.footer{
-    padding: 4rem 6rem;
+.footer {
+    padding: 2rem 6rem; /* Adjust padding for top and bottom */
     background: #000;
     color: #fff;
 }
 
-.top{
+.top {
     display: flex;
     align-items: center;
     text-align: start;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
+.top img {
+    width: 80px;
+    height: auto;
+    margin-right: 1rem; /* Add margin to separate the logo from social links */
+}
 
-.top i{
+.top div {
+    display: flex;
+    align-items: center;
+}
+
+.top i {
     color: #fff;
     font-size: 2rem;
-    margin-left: 1rem;
+    margin-right: 1rem; /* Add margin between social links */
 }
 
-top i:hover{
+.top i:hover {
     color: #01959a;
 }
 
-.bottom{
-    padding-top: 2rem;
-    text-align: start;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.bottom div{
-    display: flex;
-    flex-direction: column;
-}
-
-.bottom h4{
-    font-size: 1.3rem;
-    padding: 1rem 0 .8rem 0;
-}
-
-.bottom a {
-    text-decoration: none;
-    color: #fafafa;
-    padding-bottom: 0.4rem;
-    font-size: 1.1rem;
-}
-
-@media screen and (max-width: 850px){
-    .footer{
-        padding: 4rem 2rem;
-    }
-
-    .footer i{
-        margin: 1rem 1rem 0 0;
-    }
-
-    .bottom div{
-        width: 50%;
+@media screen and (max-width: 850px) {
+    .footer {
+        padding: 2rem 2rem; /* Adjust padding for top and bottom on smaller screens */
     }
 }

@@ -1,19 +1,24 @@
-.gallery-list{
+/* Add these changes to your existing or new CSS file (GalleryStyles.css) */
+
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 4rem 6rem;
-    height: 400px;
-}
-
-@media screen and (max-width:850px){
-    .gallery-list{
-        margin: 4rem 2rem;
-    }
-
+  }
+  
+  @media screen and (max-width: 850px) {
     .gallery-list {
-        flex-direction: column;
+      margin: 4rem 2rem;
     }
-
-    .gallery-list{
-        width:100%;
-        margin-bottom: 1.5rem;
+  
+    .gallery-list {
+      flex-direction: column;
     }
-}
+  
+    .gallery-list {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+  }
+  
