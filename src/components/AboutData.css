@@ -1,87 +1,82 @@
-*{
+* {
     box-sizing: border-box;
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-    border: 4rem 6rem;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.flex-item-left{
+.flex-item-left {
     flex: 50%;
     justify-content: space-between;
-    margin-top: 4.5rem;
-    
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem; /* Added margin-bottom for spacing */
 }
 
-.flex-item-right{
+.flex-item-right {
     flex: 50%;
     justify-content: space-between;
-    margin-top: 4.5rem;
+    margin-top: 2.5rem;
     text-align: start;
-    
-    
+    margin-bottom: 2.5rem; /* Added margin-bottom for spacing */
 }
 
-.flex-item-right p{
+.flex-item-right p {
     margin-top: 1rem;
-    margin-right:4rem;
+    margin-right: 4rem;
 }
 
-.flex-item-right h3{
+.flex-item-right h3 {
     margin-top: 1rem;
 }
 
-.experience-div{
+.experience-div {
     text-align: start;
     margin-left: 4rem;
-    margin-right:4rem;
+    margin-right: 4rem;
     justify-content: space-between;
 }
 
-.experience-div p{
+.experience-div p {
     margin-top: 1rem;
 }
 
-.experience-div h3{
+.experience-div h3 {
     margin-top: 1rem;
 }
 
-.last{
+.last {
     margin-bottom: 4rem;
 }
 
-.flex-item-left img{
+.flex-item-left img {
     width: 70%;
     height: 700px;
     object-fit: cover;
     border-radius: 30px 0px;
-
 }
 
-
-.ceo-left{
+.ceo-left {
     flex: 50%;
     justify-content: space-between;
     margin: 2%;
     margin-left: 90px;
-    
-    
 }
 
-.tech-right{
-    margin-right: 90px;  
-    margin-top: 15px;  
-
+.tech-right {
+    margin-right: 90px;
+    margin-top: 15px;
 }
 
-@media screen and (max-width:850px){
-    .flex-item-left img, .portfolio-about{
-        height:250px;
+@media screen and (max-width: 850px) {
+    .flex-item-left img,
+    .portfolio-about {
+        height: 250px;
         flex: 100%;
     }
 }
