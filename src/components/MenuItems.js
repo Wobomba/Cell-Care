@@ -22,11 +22,9 @@ export const MenuItems = [
 
     {
         title : "Gallery",
-        url : "/contact",
+        url : "/gallery",
         cName : "nav-links",
        
-    },
-
-    
+    },    
 
 ]

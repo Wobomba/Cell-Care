@@ -1,18 +1,35 @@
-import React from 'react';
+import React, {useState, useEffect, useMemo} from 'react';
 import Destination from "../components/Destination";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Gallery from '../components/Gallery';
-import HomeImg from '../assets/bw.jpg';
+import InterImg1 from '../assets/KDP_9537.jpg'
+import InterImg2 from '../assets/KDP_9633.jpg'
+import InterImg3 from '../assets/KDP_0130.jpg'
+import InterImg4 from '../assets/KDP_0134.jpg'
+import InterImg5 from '../assets/KDP_9483.jpg'
 
-function Home() {
+const Home = () => {
+const images = useMemo(() => [InterImg1, InterImg2, InterImg3, InterImg4, InterImg5], []); // Memoize the images array
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    // Auto-advance the slideshow every 3 seconds
+    const intervalId = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 3000);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, [images]);
     return (
         <>
             <Navbar />
             <Hero
                 cName='hero'
-                heroImg={HomeImg}
+                heroImg={images[currentImageIndex]}
                 title='TLC    SAFARIS'
                 text='Your Travel, Our Satisfaction'
                 buttonText='Our Services'

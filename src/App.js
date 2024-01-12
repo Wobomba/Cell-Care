@@ -5,6 +5,7 @@ import Service from './routes/Service';
 import About from './routes/About';
 import Contact from './routes/Contact';
 import Signup from './routes/Signup';
+import InternationalTravel from './routes/InternationalTravel';
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/service' element={<Service />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/contact-us' element={<Contact />} />
         <Route path='/signup' element={<Signup/>} />
+        <Route path='/intertravel' element={<InternationalTravel/>} />
       </Routes>
 
     </div>

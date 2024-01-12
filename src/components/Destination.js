@@ -2,7 +2,7 @@ import './DestinationStyles.css'
 import Mountain1 from '../assets/bungee.jpg'
 import Mountain2 from '../assets/jinjawater.webp';
 import Mountain3 from '../assets/murchison2.jpg';
-import Mountain4 from '../assets/murchison3.avif';
+import Mountain4 from '../assets/KDP_9483.jpg';
 import Mountain5 from '../assets/Baboon.jpg';
 import Mountain6 from '../assets/bwindi.jpg';
 import Mountain7 from '../assets/QEL.jpg';
