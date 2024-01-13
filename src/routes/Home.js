@@ -35,6 +35,7 @@ const images = useMemo(() => [InterImg1, InterImg2, InterImg3, InterImg4, InterI
                 buttonText='Our Services'
                 url='/service'
                 btnClass='show'
+                textColor
             />
             <Destination/>
             <div>

@@ -25,6 +25,13 @@ export const MenuItems = [
         url : "/gallery",
         cName : "nav-links",
        
-    },    
+    },  
+    
+    {
+        title : "Destination",
+        url : "/destination",
+        cName : "nav-links",
+       
+    },  
 
 ]

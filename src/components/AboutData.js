@@ -53,54 +53,7 @@ function AboutData() {
                     environmental footprint, support local communities, and preserve the natural and cultural
                     heritage of the places we visit. We partner with responsible accommodations, promote eco-friendly
                     transportation options, and engage in community-driven
-                    initiatives that promote socio-economic development and conservation efforts.</p>
-
-                <h3>Meet The Team</h3>
-
-                <div className='flex-container'>
-                <div className='ceo-left'>
-                    <Card sx={{ maxWidth: 345 }}>
-                        <CardMedia
-                            component='img'
-                            height='140'
-                            image={ceo}
-                        />
-
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                                Lokwi Tom Choudry
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                CEO
-                            </Typography>
-                        </CardContent>
-                    </Card>
-                </div>
-
-                <div className='tech-right'>
-                    <Card sx={{ maxWidth: 345 }}>
-                        <CardMedia
-                            component='img'
-                            height='140'
-                            image={tech}
-                        />
-
-
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                                Wobomba Isaac Newton
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Full Stack Developer
-                            </Typography>
-                        </CardContent>
-                    </Card>
-                </div>
-
-            </div>
-
-                
-
+                    initiatives that promote socio-economic development and conservation efforts.</p>              
             </div>
 
         </div>
