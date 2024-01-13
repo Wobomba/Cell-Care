@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import AboutImg from '../assets/KDP_8035.jpg';
 import AboutTravelData from '../components/AboutTravelData';
 import Country from '../components/CountryCircles';
+import Footer from '../components/Footer'
 function InternationalTravel() {
   return (
     <>
@@ -17,6 +18,7 @@ function InternationalTravel() {
       />
       <AboutTravelData/>
       <Country/>
+      <Footer/>
 
     </>
   );
