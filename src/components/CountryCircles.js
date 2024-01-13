@@ -57,14 +57,14 @@ const CountryCircles = () => {
       />
       <CountryCircle
         title="Rwanda"
-        imageUrl="url_to_rwanda_image.jpg"
-        hoverImageUrl="url_to_rwanda_hover_image.jpg"
+        imageUrl={require('../assets/rwanda-02.jpg')}
+        hoverImageUrl={require('../assets/rwanda-03.jpg')}
         description="Rwanda"
       />
       <CountryCircle
         title="South Africa"
-        imageUrl="url_to_south_africa_image.jpg"
-        hoverImageUrl="url_to_south_africa_hover_image.jpg"
+        imageUrl={require('../assets/sa-1.jpg')}
+        hoverImageUrl={require('../assets/sa-2.jpg')}
         description="South Africa"
       />
     </div>
