@@ -1,10 +1,6 @@
 import './AboutData.css'
-import Card from '@mui/material/Card'
-import CardContent from '@mui/material/CardContent'
-import CardMedia from '@mui/material/CardMedia'
-import Typography from '@mui/material/Typography'
 import ceo from '../assets/Tommy.jpg'
-import tech from '../assets/Newton.jpg'
+
 
 function AboutData() {
     return (
@@ -13,7 +9,7 @@ function AboutData() {
                 <img src={ceo} alt='TLC' />
             </div>
             <div class="flex-item-right">
-                <h2>TLC Safaris</h2>
+                <h2>The Lord Cares (TLC) Safaris</h2>
                 <p>Welcome to our world of immersive travel experiences, where dreams become destinations
                     and journeys become cherished memories. We are a passionate team of travel enthusiasts
                     dedicated to curating exceptional tours that offer unique insights into diverse cultures,
