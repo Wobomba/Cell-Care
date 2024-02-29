@@ -9,44 +9,37 @@
     justify-content: flex-start;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 3rem;
 }
 
-.flex-item-left {
-    flex: 50%;
-    justify-content: space-between;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem; /* Added margin-bottom for spacing */
+.rightt{
+    flex: 1;
+    text-align: left;
+    margin: 0 1rem;
+    margin-left: 4rem;
 }
 
-.flex-item-right {
-    flex: 50%;
-    justify-content: space-between;
-    margin-top: 2.5rem;
-    text-align: start;
-    margin-bottom: 2.5rem; /* Added margin-bottom for spacing */
-}
-
-.flex-item-right p {
-    margin-top: 1rem;
+.leftt{
+    flex: 1;
+    text-align: left;
+    margin: 0 1rem;
     margin-right: 4rem;
 }
 
-.flex-item-right h3 {
-    margin-top: 1rem;
+.rightt img {
+    width: 84%;
+    height: 73%;
+    border-radius: 30px 0px;
 }
 
 .experience-div {
-    text-align: start;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    text-align: left;
     justify-content: space-between;
-}
-
-.experience-div p {
     margin-top: 1rem;
 }
 
-.experience-div h3 {
+.experience-div p,
+.experience-div h3, .leftt p, .leftt h3 {
     margin-top: 1rem;
 }
 
@@ -54,29 +47,31 @@
     margin-bottom: 4rem;
 }
 
-.flex-item-left img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 30px 0px;
-}
-
-.ceo-left {
-    flex: 50%;
-    justify-content: space-between;
-    margin: 2%;
-    margin-left: 90px;
-}
-
-.tech-right {
-    margin-right: 90px;
-    margin-top: 15px;
-}
-
-@media screen and (max-width: 850px) {
-    .flex-item-left img,
-    .portfolio-about {
-        height: 250px;
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+    .rightt,
+    .leftt,
+    .experience-div {
         flex: 100%;
+        text-align: left;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rightt img {
+        margin: 0; /* Adjust spacing for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .rightt img,
+    .leftt,
+    .experience-div {
+        margin: 0.5rem;
+    }
+
+    .flex-container {
+        margin-top: 2rem;
     }
 }

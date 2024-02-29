@@ -1,14 +1,13 @@
 import './AboutData.css'
 import ceo from '../assets/Tommy.jpg'
 
-
 function AboutData() {
     return (
         <div class="flex-container">
-            <div class="flex-item-left">
+            <div class = "rightt">
                 <img src={ceo} alt='TLC' />
             </div>
-            <div class="flex-item-right">
+            <div class = "leftt">
                 <h2>The Lord Cares (TLC) Safaris</h2>
                 <p>Welcome to our world of immersive travel experiences, where dreams become destinations
                     and journeys become cherished memories. We are a passionate team of travel enthusiasts

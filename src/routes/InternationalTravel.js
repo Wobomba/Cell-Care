@@ -1,10 +1,10 @@
 import React from 'react';
-import '../components/InternationalDataStyles.css'
 import HeroTravel from '../components/HeroTravel';
 import Navbar from "../components/Navbar";
 import AboutImg from '../assets/KDP_8035.jpg';
-import AboutTravelData from '../components/AboutTravelData';
-import Country from '../components/CountryCircles';
+import AboutTravel from '../components/AboutTravel';
+import Travel from '../components/Travel';
+
 import Footer from '../components/Footer'
 function InternationalTravel() {
   return (
@@ -16,8 +16,10 @@ function InternationalTravel() {
         title='Travel With Us'
         btnClass='hide'
       />
-      <AboutTravelData/>
-      <Country/>
+      <AboutTravel/>
+      <Travel/>
+     
+    
       <Footer/>
 
     </>
