@@ -1,6 +1,6 @@
 import Hero from '../../Hero/Hero';
 import Navbar from "../../Nav/Navbar";
-import AboutImg from '../../../assets/Exp57.jpeg';
+import AboutImg from '../../../assets/9_latest.jpg';
 import Footer from '../../FooterPage/Footer';
 import ZanzibarData from './ZanzibarData';
 
@@ -13,7 +13,7 @@ function Zanzibar() {
             <Hero
                 cName='hero-mid'
                 heroImg={AboutImg}
-                title='Uganda'
+                title='Zanzibar'
                 btnClass='hide'
             />
             <ZanzibarData/>

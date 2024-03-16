@@ -1,6 +1,6 @@
 import Hero from '../../Hero/Hero';
 import Navbar from "../../Nav/Navbar";
-import AboutImg from '../../../assets/Exp57.jpeg';
+import AboutImg from '../../../assets/KDP_9633.jpg';
 import Footer from '../../FooterPage/Footer';
 import KenyaData from './KenyaData';
 
@@ -13,7 +13,7 @@ function Kenya() {
             <Hero
                 cName='hero-mid'
                 heroImg={AboutImg}
-                title='Uganda'
+                title='Kenya'
                 btnClass='hide'
             />
             <KenyaData/>

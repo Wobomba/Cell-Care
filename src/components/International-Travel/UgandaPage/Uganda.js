@@ -1,6 +1,6 @@
 import Hero from '../../Hero/Hero';
 import Navbar from "../../Nav/Navbar";
-import AboutImg from '../../../assets/Exp57.jpeg';
+import AboutImg from '../../../assets/KDP_0130.jpg';
 import Footer from '../../FooterPage/Footer';
 import UgandaData from './UgandaData';
 
