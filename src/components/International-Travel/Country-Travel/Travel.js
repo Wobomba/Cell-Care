@@ -1,4 +1,7 @@
+// Travel.jsx
+
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './TravelStyles.css';
 import TravelData from './TravelData';
 import Mountain1 from '../../../assets/bungee.jpg';
@@ -7,12 +10,12 @@ import Mountain3 from '../../../assets/4_latest.jpg';
 
 const Travel = () => {
   const countries = [
-    { heading: 'Uganda', image: Mountain1 },
-    { heading: 'Kenya', image: Mountain2 },
-    { heading: 'Tanzania', image: Mountain3 },
-    { heading: 'Zanzibar', image: Mountain3 },
-    { heading: 'Dubai', image: Mountain3 },
-    { heading: 'South Africa', image: Mountain3 },
+    { name: 'Uganda', image: Mountain1, link: '/uganda' },
+    { name: 'Kenya', image: Mountain2, link: '/kenya' },
+    { name: 'Tanzania', image: Mountain3, link: '/tanzania' },
+    { name: 'Zanzibar', image: Mountain3, link: '/zanzibar' },
+    { name: 'Dubai', image: Mountain3, link: '/dubai' },
+    { name: 'South Africa', image: Mountain3, link: '/south-africa' },
   ];
 
   return (
@@ -20,12 +23,12 @@ const Travel = () => {
       <h1>Destinations</h1>
       <div className="countries-container">
         {countries.map((country, index) => (
-          <TravelData
-            key={index}
-            className={`country-item ${index % 2 === 1 ? 'reverse' : ''}`}
-            heading={country.heading}
-            img1={country.image}
-          />
+          <Link to={country.link} key={index} className={`country-item ${index % 2 === 1 ? 'reverse' : ''}`}>
+            <TravelData
+              heading={country.name}
+              img1={country.image}
+            />
+          </Link>
         ))}
       </div>
     </div>

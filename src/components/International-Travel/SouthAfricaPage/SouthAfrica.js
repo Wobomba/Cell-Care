@@ -2,11 +2,11 @@ import Hero from '../../Hero/Hero';
 import Navbar from "../../Nav/Navbar";
 import AboutImg from '../../../assets/Exp57.jpeg';
 import Footer from '../../FooterPage/Footer';
-import UgandaData from './UgandaData';
+import SouthAfricaData from './SouthAfricaData';
 
 
 
-function Uganda() {
+function SouthAfrica() {
     return (
         <>
             <Navbar />
@@ -16,11 +16,11 @@ function Uganda() {
                 title='Uganda'
                 btnClass='hide'
             />
-            <UgandaData/>
+            <SouthAfricaData/>
             <Footer/>
         </>
 
     )
 }
 
-export default Uganda;
+export default SouthAfrica;
