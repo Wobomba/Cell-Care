@@ -26,14 +26,14 @@
 
 .image {
     position: relative;
-    width: 50%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
     z-index: -99;
 }
 
 .image img {
-    width: 49%;
+    width: 32%;
     height: 350px;
     object-fit: cover;
     border-radius: 6px;

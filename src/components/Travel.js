@@ -1,5 +1,3 @@
-// Travel.jsx
-
 import React from 'react';
 import './TravelStyles.css';
 import TravelData from './TravelData';
@@ -9,12 +7,12 @@ import Mountain3 from '../assets/4_latest.jpg';
 
 const Travel = () => {
   const countries = [
-    { heading: 'Uganda', image: Mountain1, link: 'https://example.com/uganda' },
-    { heading: 'Kenya', image: Mountain2, link: 'https://example.com/kenya' },
-    { heading: 'Tanzania', image: Mountain3, link: 'https://example.com/tanzania' },
-    { heading: 'Zanzibar', image: Mountain3, link: 'https://example.com/zanzibar' },
-    { heading: 'Dubai', image: Mountain3, link: 'https://example.com/dubai' },
-    { heading: 'South Africa', image: Mountain3, link: 'https://example.com/south-africa' },
+    { heading: 'Uganda', image: Mountain1 },
+    { heading: 'Kenya', image: Mountain2 },
+    { heading: 'Tanzania', image: Mountain3 },
+    { heading: 'Zanzibar', image: Mountain3 },
+    { heading: 'Dubai', image: Mountain3 },
+    { heading: 'South Africa', image: Mountain3 },
   ];
 
   return (
@@ -27,7 +25,6 @@ const Travel = () => {
             className={`country-item ${index % 2 === 1 ? 'reverse' : ''}`}
             heading={country.heading}
             img1={country.image}
-            link={country.link}
           />
         ))}
       </div>
