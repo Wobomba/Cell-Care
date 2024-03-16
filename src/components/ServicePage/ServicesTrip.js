@@ -3,8 +3,8 @@ import TripData from './ServicesTripData';
 
 import Trip1 from '../../assets/Exp4.jpeg';
 import Trip2 from '../../assets/Exp61.jpeg';
-import Trip3 from '../../assets/honeymoon.jpg';
-import Honeymoon from '../../assets/honeymoon.jpg';
+import Trip3 from '../../assets/airport.jpg';
+import Honeymoon from '../../assets/honeymoon-1.jpg';
 import Guide from '../../assets/guide.jpg';
 import Retreat from '../../assets/retreat.jpg';
 import Plans from '../../assets/plans.jpg';
