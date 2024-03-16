@@ -1,9 +1,9 @@
-import Hero from '../components/Hero';
-import Navbar from "../components/Navbar";
+import Hero from '../components/Hero/Hero';
+import Navbar from "../components/Nav/Navbar";
 import AboutImg from '../assets/Exp57.jpeg';
-import Footer from '../components/Footer';
-import AboutData from '../components/AboutData';
-import Trip from '../components/Trip';
+import Footer from '../components/FooterPage/Footer';
+import AboutData from '../components/AboutPage/AboutData';
+import Trip from '../components/LandingPage/Trip/Trip';
 
 
 function About() {

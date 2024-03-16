@@ -1,9 +1,9 @@
 import './TripStyles.css';
 import TripData from './TripData'; 
 
-import Trip1 from '../assets/Exp4.jpeg';
-import Trip2 from '../assets/Exp61.jpeg';
-import Trip3 from '../assets/mabira-trek.jpg';
+import Trip1 from '../../../assets/Exp4.jpeg';
+import Trip2 from '../../../assets/Exp61.jpeg';
+import Trip3 from '../../../assets/mabira-trek.jpg';
 
 
 function Trip(){

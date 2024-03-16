@@ -2,15 +2,15 @@ import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import './GalleryStyles.css'; // Import the CSS file where you'll define the styles
-import Experience1 from '../assets/1_latest.jpg';
-import Experience2 from '../assets/Exp2.jpeg';
-import Experience3 from '../assets/2_latest.jpg';
-import Experience4 from '../assets/Exp4.jpeg';
-import Experience5 from '../assets/3_latest.jpg';
-import Experience6 from '../assets/4_latest.jpg';
-import Experience7 from '../assets/5_latest.jpg';
-import Experience8 from '../assets/Exp58.jpeg';
-import Experience9 from '../assets/Exp59.jpeg';
+import Experience1 from '../../assets/1_latest.jpg';
+import Experience2 from '../../assets/Exp2.jpeg';
+import Experience3 from '../../assets/2_latest.jpg';
+import Experience4 from '../../assets/Exp4.jpeg';
+import Experience5 from '../../assets/3_latest.jpg';
+import Experience6 from '../../assets/4_latest.jpg';
+import Experience7 from '../../assets/5_latest.jpg';
+import Experience8 from '../../assets/Exp58.jpeg';
+import Experience9 from '../../assets/Exp59.jpeg';
 
 function Gallery() {
   const itemData = [

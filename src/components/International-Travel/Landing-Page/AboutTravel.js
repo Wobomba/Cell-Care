@@ -1,5 +1,5 @@
 import './AboutTravelDataStyle.css'
-import ceo from '../assets/KDP_8360.jpg'
+import ceo from '../../../assets/KDP_8360.jpg'
 
 
 const AboutTravel = () => {

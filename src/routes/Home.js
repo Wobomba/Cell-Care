@@ -1,9 +1,9 @@
 import React, {useState, useEffect, useMemo} from 'react';
-import Destination from "../components/Destination";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
-import Gallery from '../components/Gallery';
+import Destination from "../components/LandingPage/Destination/Destination";
+import Footer from "../components/FooterPage/Footer";
+import Hero from "../components/Hero/Hero";
+import Navbar from "../components/Nav/Navbar";
+import Gallery from '../components/GalleryComponent/Gallery';
 import InterImg1 from '../assets/KDP_9537.jpg'
 import InterImg2 from '../assets/KDP_9633.jpg'
 import InterImg3 from '../assets/KDP_0130.jpg'

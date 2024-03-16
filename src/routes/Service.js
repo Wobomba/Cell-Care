@@ -1,9 +1,9 @@
-import Hero from '../components/Hero';
-import Navbar from "../components/Navbar";
+import Hero from '../components/Hero/Hero';
+import Navbar from "../components/Nav/Navbar";
 import AboutImg from '../assets/bwindi.jpg';
-import ServicesTrip from '../components/ServicesTrip';
-import Footer from '../components/Footer';
-import Trip from '../components/Trip';
+import ServicesTrip from '../components/ServicePage/ServicesTrip';
+import Footer from '../components/FooterPage/Footer';
+import Trip from '../components/LandingPage/Trip/Trip';
 
 
 function Service() {

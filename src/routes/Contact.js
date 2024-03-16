@@ -1,8 +1,8 @@
-import Navbar from "../components/Navbar";
-import Hero from '../components/Hero';
+import Navbar from "../components/Nav/Navbar";
+import Hero from '../components/Hero/Hero';
 import AboutImg from '../assets/bwindi-forest-uganda.jpg';
-import Footer from "../components/Footer";
-import GalleryPage from "../components/GalleryPage";
+import Footer from "../components/FooterPage/Footer";
+import GalleryPage from "../components/GalleryComponent/GalleryPage";
 
 
 

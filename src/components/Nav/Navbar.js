@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './NavbarStyles.css';
 import { MenuItems } from './MenuItems';
 import { Link } from 'react-router-dom';
-import logo from '../assets/final-logo.png';
+import logo from '../../assets/final-logo.png';
 
 class Navbar extends Component {
     state = {

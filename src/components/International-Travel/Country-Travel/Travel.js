@@ -1,9 +1,9 @@
 import React from 'react';
 import './TravelStyles.css';
 import TravelData from './TravelData';
-import Mountain1 from '../assets/bungee.jpg';
-import Mountain2 from '../assets/3_latest.jpg';
-import Mountain3 from '../assets/4_latest.jpg';
+import Mountain1 from '../../../assets/bungee.jpg';
+import Mountain2 from '../../../assets/3_latest.jpg';
+import Mountain3 from '../../../assets/4_latest.jpg';
 
 const Travel = () => {
   const countries = [

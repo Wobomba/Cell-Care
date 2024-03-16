@@ -1,5 +1,5 @@
 import './AboutData.css'
-import ceo from '../assets/Tommy.jpg'
+import ceo from '../../assets/Tommy.jpg'
 
 function AboutData() {
     return (
