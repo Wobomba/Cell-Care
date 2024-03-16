@@ -4,53 +4,36 @@ function ZanzibarData() {
     return (
         <div class="flex-container">
             <div className='experience-div'>
-                <h3>Uganda Safari Tours</h3>
+                <h3>Zanzibar Tours</h3>
 
-                <p>Embark on a once-in-a-lifetime adventure with Uganda Safari Tours, where the heart of Africa
-                    beats in harmony with the untamed wilderness. Uganda, often referred to as
-                    the "Pearl of Africa," is a gem for safari enthusiasts seeking an authentic and diverse
-                    wildlife experience.</p>
+                <p>Step into a world of enchantment as you journey to the captivating archipelago of Zanzibar, 
+                    where a tapestry of culture, history, and natural beauty awaits. Tucked away off the coast 
+                    of Tanzania, Zanzibar beckons travelers with its mesmerizing blend of experiences.</p>
 
-                <h3>Discover Rich Biodiversity</h3>
+                <p>Unravel the secrets of Zanzibar's past as you wander through the labyrinthine streets of 
+                    Stone Town, a UNESCO World Heritage Site. Discover the remnants of the island's storied 
+                    history, from the Sultan's Palace to the haunting echoes of the slave trade. Let the 
+                    whispers of centuries-old tales guide you through the narrow alleys and vibrant marketplaces,
+                     where the scent of exotic spices hangs in the air.</p>
 
-                <p>Uganda boasts an incredible array of landscapes, from dense rainforests and
-                    expansive savannahs to the stunning shores of Lake Victoria. This diversity provides
-                    a habitat for a rich assortment of wildlife, including the iconic
-                    African Big Five – lions, elephants, buffalos, leopards, and rhinos.</p>
+                <p>Venture beyond the city's ancient walls and uncover Zanzibar's natural wonders. Lose yourself 
+                    in the tranquility of pristine beaches, where powdery sands meet the azure waters of the Indian
+                     Ocean. Dive into the vibrant underwater world, where coral reefs teem with life and colorful 
+                     marine creatures dance beneath the waves.</p>
 
-                <h3>Encounter Mountain Gorillas</h3>
+                <p>Indulge your senses in Zanzibar's spice paradise, where fragrant cloves, cinnamon, and vanilla 
+                    flourish in lush plantations. Embark on a journey of discovery as you taste, smell, and learn
+                     about the spices that have shaped the island's identity for centuries.</p>
 
-                <p>One of the most captivating aspects of Uganda Safari Tours is the opportunity to
-                    trek into the misty mountains and encounter the endangered mountain gorillas in their
-                    natural habitat. Bwindi Impenetrable National Park is a sanctuary for these majestic
-                    creatures, offering a chance for a close and personal
-                    encounter that will leave an indelible mark on your soul.</p>
+                <p>But perhaps the true magic of Zanzibar lies in its people. Immerse yourself in the warmth of 
+                    Swahili hospitality as you connect with locals, share stories, and partake in age-old traditions.
+                    Experience the rhythm of island life as you dance to the beat of traditional music and feast on 
+                    sumptuous local delicacies.</p>
 
+                <p className='last'>In Zanzibar, every moment is a celebration of life, every corner holds a story,
+                 and every experience leaves an indelible mark on your soul. So come, embark on a journey of discovery,
+                  and let Zanzibar's timeless allure capture your heart and imagination.</p>
 
-                <h3>Witness the Mighty Nile</h3>
-
-                <p>Uganda is blessed with the source of the Nile, and a safari tour isn't complete
-                    without a visit to the Murchison Falls. Witness the Nile River squeeze through a narrow gorge,
-                    creating a breathtaking cascade and a spectacular display of nature's power.</p>
-
-                <h3>Immerse in Culture and Traditions</h3>
-
-                <p>Beyond the wilderness, Uganda Safari Tours also provide an opportunity to
-                    connect with local communities. Experience the vibrant cultures, colorful traditions, and
-                    warm hospitality of the Ugandan people. Engage in cultural exchanges, dance to the rhythm
-                    of traditional music, and savor the flavors of authentic African cuisine.</p>
-
-                <h3>Unforgettable Experiences Await</h3>
-
-                <p>Whether it's a hot air balloon safari over the savannah, a boat cruise along the
-                     Kazinga Channel, or a thrilling game drive in Queen Elizabeth National Park, Uganda Safari 
-                    Tours promise unforgettable experiences at every turn.</p>
-
-                <p className='last'>We believe in responsible and sustainable travel practices. We strive to minimize our
-                    environmental footprint, support local communities, and preserve the natural and cultural
-                    heritage of the places we visit. We partner with responsible accommodations, promote eco-friendly
-                    transportation options, and engage in community-driven
-                    initiatives that promote socio-economic development and conservation efforts.</p>
             </div>
         </div>
 

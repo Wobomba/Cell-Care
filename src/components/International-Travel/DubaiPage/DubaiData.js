@@ -4,53 +4,36 @@ function DubaiData() {
     return (
         <div class="flex-container">
             <div className='experience-div'>
-                <h3>Uganda Safari Tours</h3>
+                <h3>Dubai Tours</h3>
 
-                <p>Embark on a once-in-a-lifetime adventure with Uganda Safari Tours, where the heart of Africa
-                    beats in harmony with the untamed wilderness. Uganda, often referred to as
-                    the "Pearl of Africa," is a gem for safari enthusiasts seeking an authentic and diverse
-                    wildlife experience.</p>
+                <p>Dubai, a city of dreams and marvels, awaits your arrival with open arms. Here, amidst the glimmering 
+                    skyscrapers and the golden sands of the desert, lies a treasure trove of experiences waiting to be 
+                    uncovered.</p>
 
-                <h3>Discover Rich Biodiversity</h3>
+                <p>Set foot in Downtown Dubai, where the iconic Burj Khalifa pierces the sky, standing as a testament to 
+                    human ingenuity and ambition. Feel the thrill as you ascend to the observation deck and behold the 
+                    breathtaking panorama of the city below, stretching out before you like a shimmering mosaic of lights
+                     and life.</p>
 
-                <p>Uganda boasts an incredible array of landscapes, from dense rainforests and
-                    expansive savannahs to the stunning shores of Lake Victoria. This diversity provides
-                    a habitat for a rich assortment of wildlife, including the iconic
-                    African Big Five – lions, elephants, buffalos, leopards, and rhinos.</p>
+                <p>But that's just the beginning. Venture into the heart of the Old Town, where the labyrinthine lanes of 
+                    the Al Fahidi Historical Neighbourhood beckon with tales of Dubai's rich heritage. Lose yourself in 
+                    the bustling souks, where the scent of spices fills the air and the sounds of bargaining echo through 
+                    the narrow alleyways.</p>
 
-                <h3>Encounter Mountain Gorillas</h3>
+                <p>And let's not forget the adventure that awaits beyond the city limits. Embark on a desert safari and 
+                    feel the exhilaration as you race over the dunes in a 4x4, the golden sands stretching out endlessly
+                     before you. Pause to witness the mesmerizing beauty of the sunset, painting the sky in shades of 
+                     orange and pink, before continuing your journey to a traditional Bedouin camp, where you'll feast
+                      on a sumptuous Arabian banquet under the stars.</p>
 
-                <p>One of the most captivating aspects of Uganda Safari Tours is the opportunity to
-                    trek into the misty mountains and encounter the endangered mountain gorillas in their
-                    natural habitat. Bwindi Impenetrable National Park is a sanctuary for these majestic
-                    creatures, offering a chance for a close and personal
-                    encounter that will leave an indelible mark on your soul.</p>
+                <p>But perhaps the most unforgettable part of your Dubai tour will be the people you meet along the way. 
+                    Immerse yourself in the warmth of Emirati hospitality as you share stories and laughter with locals, 
+                    who will welcome you as one of their own.</p>
 
+                <p className='last'>So what are you waiting for? Come, embark on a journey of discovery and let Dubai's
+                 splendor and charm capture your heart like never before. The adventure of a lifetime awaits, and it 
+                 begins here.</p>
 
-                <h3>Witness the Mighty Nile</h3>
-
-                <p>Uganda is blessed with the source of the Nile, and a safari tour isn't complete
-                    without a visit to the Murchison Falls. Witness the Nile River squeeze through a narrow gorge,
-                    creating a breathtaking cascade and a spectacular display of nature's power.</p>
-
-                <h3>Immerse in Culture and Traditions</h3>
-
-                <p>Beyond the wilderness, Uganda Safari Tours also provide an opportunity to
-                    connect with local communities. Experience the vibrant cultures, colorful traditions, and
-                    warm hospitality of the Ugandan people. Engage in cultural exchanges, dance to the rhythm
-                    of traditional music, and savor the flavors of authentic African cuisine.</p>
-
-                <h3>Unforgettable Experiences Await</h3>
-
-                <p>Whether it's a hot air balloon safari over the savannah, a boat cruise along the
-                     Kazinga Channel, or a thrilling game drive in Queen Elizabeth National Park, Uganda Safari 
-                    Tours promise unforgettable experiences at every turn.</p>
-
-                <p className='last'>We believe in responsible and sustainable travel practices. We strive to minimize our
-                    environmental footprint, support local communities, and preserve the natural and cultural
-                    heritage of the places we visit. We partner with responsible accommodations, promote eco-friendly
-                    transportation options, and engage in community-driven
-                    initiatives that promote socio-economic development and conservation efforts.</p>
             </div>
         </div>
 
