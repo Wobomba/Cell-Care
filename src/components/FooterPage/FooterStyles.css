@@ -1,0 +1,39 @@
+.footer {
+    padding: 2rem 6rem; /* Adjust padding for top and bottom */
+    background: #000;
+    color: #fff;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.top img {
+    width: 80px;
+    height: auto;
+    margin-right: 1rem; /* Add margin to separate the logo from social links */
+}
+
+.top div {
+    display: flex;
+    align-items: center;
+}
+
+.top i {
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 1rem; /* Add margin between social links */
+}
+
+.top i:hover {
+    color: #01959a;
+}
+
+@media screen and (max-width: 850px) {
+    .footer {
+        padding: 2rem 2rem; /* Adjust padding for top and bottom on smaller screens */
+    }
+}

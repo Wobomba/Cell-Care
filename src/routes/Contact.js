@@ -1,19 +1,30 @@
-import Navbar from "../components/Navbar";
-import Hero from '../components/Hero';
-import AboutImg from '../assets/2.jpg';
-import Footer from "../components/Footer";
+import Navbar from "../components/Nav/Navbar";
+import Hero from '../components/Hero/Hero';
+import AboutImg from '../assets/bwindi-forest-uganda.jpg';
+import Footer from "../components/FooterPage/Footer";
+import GalleryPage from "../components/GalleryComponent/GalleryPage";
+
+
 
 function Contact() {
     return (
         <>
-           <Navbar />
+            <Navbar />
             <Hero
                 cName='hero-mid'
                 heroImg={AboutImg}
-                title='Contact'
+                title='Our Experiences'
                 btnClass='hide'
             />
-            <Footer/>
+            <div className="Contact">
+                <div className="container">
+                    <h1 className="text-center">
+                    </h1>
+                    <GalleryPage/>
+                </div>
+            </div>
+            
+            <Footer />
         </>
     )
 }

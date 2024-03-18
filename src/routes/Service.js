@@ -1,21 +1,25 @@
-import Hero from '../components/Hero';
-import Navbar from "../components/Navbar";
-import AboutImg from '../assets/1.jpg';
-import Trip from '../components/Trip';
-import Footer from '../components/Footer';
+import Hero from '../components/Hero/Hero';
+import Navbar from "../components/Nav/Navbar";
+import AboutImg from '../assets/bwindi.jpg';
+import ServicesTrip from '../components/ServicePage/ServicesTrip';
+import Footer from '../components/FooterPage/Footer';
+import Trip from '../components/LandingPage/Trip/Trip';
+
 
 function Service() {
     return (
         <>
-          <Navbar />
+            <Navbar />
             <Hero
                 cName='hero-mid'
                 heroImg={AboutImg}
-                title='Service'
+                title='What We Offer'
                 btnClass='hide'
             />
+            
+            <ServicesTrip/>
             <Trip/>
-            <Footer/>
+            <Footer />
         </>
     )
 }

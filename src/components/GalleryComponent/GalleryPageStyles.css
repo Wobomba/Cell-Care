@@ -1,0 +1,15 @@
+/* Add these changes to your existing or new CSS file */
+
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem 6rem;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .gallery-list {
+      margin: 4rem 2rem;
+    }
+  }
+  

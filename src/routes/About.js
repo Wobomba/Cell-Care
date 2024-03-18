@@ -1,7 +1,10 @@
-import Hero from '../components/Hero';
-import Navbar from "../components/Navbar";
-import AboutImg from '../assets/night.jpg';
-import Footer from '../components/Footer';
+import Hero from '../components/Hero/Hero';
+import Navbar from "../components/Nav/Navbar";
+import AboutImg from '../assets/Exp57.jpeg';
+import Footer from '../components/FooterPage/Footer';
+import AboutData from '../components/AboutPage/AboutData';
+import Trip from '../components/LandingPage/Trip/Trip';
+
 
 function About() {
     return (
@@ -10,9 +13,14 @@ function About() {
             <Hero
                 cName='hero-mid'
                 heroImg={AboutImg}
-                title='About'
+                title='Who we are'
                 btnClass='hide'
             />
+
+           <AboutData/>
+           
+           <Trip/>
+
             <Footer/>
         </>
 
